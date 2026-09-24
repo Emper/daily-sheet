@@ -1,0 +1,154 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f3f4f6;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color: #111827;
+}
+
+.app { display: flex; min-height: 100vh; }
+
+/* ------------------------------------------------------------- controles */
+.controls {
+  width: 280px;
+  flex: 0 0 280px;
+  padding: 20px 18px;
+  background: #fff;
+  border-right: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  max-height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 14px;
+}
+.controls__title { margin: 0; font-size: 18px; }
+
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field > span { font-size: 12px; color: #6b7280; }
+.field__hint { font-size: 11px; color: #9ca3af; line-height: 1.35; }
+.field select, .field input, .kid select, .kid input {
+  padding: 6px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font: inherit;
+  background: #fff;
+}
+
+.kids { display: flex; flex-direction: column; gap: 10px; }
+.kid {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+.kid__top { display: flex; gap: 4px; align-items: center; }
+.kid__row { display: flex; gap: 4px; align-items: center; }
+.kid__name { flex: 1 1 auto; min-width: 0; font-weight: 600; }
+.kid__row select { flex: 1 1 auto; min-width: 0; }
+.kid button {
+  border: 1px solid #d1d5db;
+  background: #fff;
+  border-radius: 6px;
+  width: 26px;
+  height: 28px;
+  cursor: pointer;
+  line-height: 1;
+}
+.kid button:disabled { opacity: 0.35; cursor: default; }
+
+button.primary {
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+button.secondary {
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+button.secondary:hover { background: #f9fafb; }
+
+.controls__date {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+.controls__date::first-letter { text-transform: uppercase; }
+
+button.ghost {
+  padding: 6px;
+  border: 1px dashed #d1d5db;
+  border-radius: 6px;
+  background: transparent;
+  font: inherit;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.check { display: flex; gap: 6px; align-items: center; font-size: 13px; color: #4b5563; }
+.check input:disabled + span { opacity: 0.5; }
+
+/* Ajustes: plegado por defecto. Las decisiones por defecto son buenas;
+   esto es para el día que quieras afinar. */
+.adv { border-top: 1px solid #e5e7eb; padding-top: 12px; }
+.adv > summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4b5563;
+  list-style: none;
+}
+.adv > summary::before { content: '▸ '; }
+.adv[open] > summary::before { content: '▾ '; }
+.adv__label { font-size: 12px; color: #6b7280; margin: 12px 0 6px; }
+.adv__subjects { display: flex; flex-direction: column; gap: 5px; }
+.adv__spaced { margin-top: 14px; }
+.tip { font-size: 12px; color: #6b7280; line-height: 1.4; margin: 0; }
+
+.debug { font-size: 12px; color: #374151; padding-left: 16px; margin: 0; }
+.debug ol { padding-left: 16px; margin: 4px 0 8px; }
+.debug__dim { color: #9ca3af; }
+
+/* -------------------------------------------------------------- preview */
+.preview {
+  flex: 1 1 auto;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+.preview .sheet {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+}
+
+.sheet__idx {
+  border: 0.25mm solid var(--rule);
+  border-radius: 10mm;
+  padding: 0.3mm 2mm;
+  margin-right: 2.5mm;
+  font-size: 0.85em;
+}
+
+@media print {
+  body { background: #fff; }
+  .app { display: block; }
+  .controls { display: none; }
+  .preview { padding: 0; gap: 0; display: block; }
+}

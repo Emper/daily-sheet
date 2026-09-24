@@ -1,0 +1,542 @@
+[
+  {
+    "id": "r-hormiga",
+    "cycle": 1,
+    "kind": "narrativo",
+    "title": "La hormiga y la miga",
+    "text": "Una hormiga encontró una miga de pan muy grande. Empujó y empujó, pero no podía moverla. Entonces fue al hormiguero y avisó a sus hermanas. Entre todas llevaron la miga hasta casa. Aquella noche cenaron pan todas juntas.",
+    "questions": [
+      "¿Qué encontró la hormiga?",
+      "¿Por qué no podía moverla sola?",
+      "¿Quién la ayudó al final?"
+    ]
+  },
+  {
+    "id": "r-lluvia",
+    "cycle": 1,
+    "kind": "narrativo",
+    "title": "Un charco enorme",
+    "text": "Ayer llovió toda la tarde. Cuando paró, en la plaza había un charco enorme. Lucas se puso las botas de agua y saltó dentro. Salpicó a su hermana y los dos se rieron mucho. Volvieron a casa con los calcetines mojados.",
+    "questions": [
+      "¿Cuándo llovió?",
+      "¿Qué se puso Lucas antes de saltar?",
+      "¿Cómo volvieron a casa?"
+    ]
+  },
+  {
+    "id": "r-semilla",
+    "cycle": 1,
+    "kind": "narrativo",
+    "title": "La semilla de la maceta",
+    "text": "Clara plantó una semilla en una maceta. La regaba cada mañana antes de ir al colegio. Pasaron muchos días y no salía nada. Clara casi se rinde. Una mañana vio un tallo verde muy pequeño asomando en la tierra.",
+    "questions": [
+      "¿Qué hacía Clara cada mañana?",
+      "¿Qué vio al final en la maceta?",
+      "¿Crees que Clara hizo bien en seguir regando? ¿Por qué?"
+    ]
+  },
+  {
+    "id": "r-nube",
+    "cycle": 1,
+    "kind": "descriptivo",
+    "title": "El perro de la panadería",
+    "text": "En la panadería de mi calle hay un perro muy viejo. Se llama Nube y duerme todo el día junto a la puerta. Tiene el pelo blanco y una oreja caída. Cuando entra alguien, abre un ojo, mueve el rabo dos veces y se vuelve a dormir.",
+    "questions": [
+      "¿Cómo se llama el perro?",
+      "¿Qué hace cuando entra alguien?",
+      "¿Por qué crees que le pusieron ese nombre?"
+    ]
+  },
+  {
+    "id": "r-caracol",
+    "cycle": 1,
+    "kind": "expositivo",
+    "title": "Los caracoles",
+    "text": "El caracol lleva su casa encima. Es una concha dura que lo protege del sol y de los pájaros. Cuando tiene miedo, se esconde dentro. Los caracoles salen sobre todo cuando llueve, porque necesitan tener la piel húmeda. Se mueven muy despacio y dejan un rastro brillante.",
+    "questions": [
+      "¿Para qué le sirve la concha?",
+      "¿Cuándo salen los caracoles y por qué?",
+      "¿Qué dejan por el suelo cuando pasan?"
+    ]
+  },
+  {
+    "id": "r-sandwich",
+    "cycle": 1,
+    "kind": "instructivo",
+    "title": "Sándwich de queso",
+    "text": "1. Saca dos rebanadas de pan.\n2. Unta mantequilla en una de ellas.\n3. Pon encima una loncha de queso.\n4. Tapa con la otra rebanada.\n5. Corta el sándwich por la mitad.",
+    "questions": [
+      "¿Cuántos pasos hay en total?",
+      "¿Qué se hace justo después de untar la mantequilla?",
+      "¿Qué pasaría si te saltaras el paso 4?"
+    ]
+  },
+  {
+    "id": "r-fruteria",
+    "cycle": 1,
+    "kind": "dialogado",
+    "title": "En la frutería",
+    "text": "—Buenos días. ¿Tiene fresas?\n—Hoy no me han traído. Pero mire qué cerezas.\n—¿Son dulces?\n—Pruebe una.\n—¡Uy, están buenísimas! Póngame medio kilo.\n—Aquí tiene. Son tres euros.",
+    "questions": [
+      "¿Qué quería comprar el cliente al principio?",
+      "¿Qué compró al final?",
+      "¿Cuánto tuvo que pagar?"
+    ]
+  },
+  {
+    "id": "r-luna",
+    "cycle": 1,
+    "kind": "poético",
+    "title": "La luna de excursión",
+    "text": "La luna se ha despertado\ncon la cara de melón.\nSe ha puesto el gorro de nubes\ny se ha ido de excursión.\n\nVolverá por la mañana\ncon el gorro en un rincón.",
+    "questions": [
+      "¿Con qué se compara la cara de la luna?",
+      "¿Qué se ha puesto la luna en la cabeza?",
+      "¿Cuántos versos tiene la primera estrofa?"
+    ]
+  },
+  {
+    "id": "r-nota",
+    "cycle": 1,
+    "kind": "carta",
+    "title": "Una nota en la nevera",
+    "text": "Mateo:\nMe he ido a comprar. En la nevera tienes un yogur y fruta.\nNo abras la ventana, que se escapa el gato.\nVuelvo a las seis.\nUn beso, mamá.",
+    "questions": [
+      "¿Dónde ha ido mamá?",
+      "¿Qué no debe hacer Mateo y por qué?",
+      "¿A qué hora vuelve?"
+    ]
+  },
+  {
+    "id": "r-huerto",
+    "cycle": 1,
+    "kind": "noticia",
+    "title": "El huerto del colegio",
+    "text": "Los niños de segundo han plantado un huerto en el patio. Han sembrado lechugas, tomates y fresas. Cada mañana, dos alumnos se encargan de regar. El director dice que en junio habrá ensalada para todos.",
+    "questions": [
+      "¿Qué han sembrado en el huerto?",
+      "¿Quién se encarga de regar?",
+      "¿Qué pasará en junio?"
+    ]
+  },
+  {
+    "id": "r-diente",
+    "cycle": 1,
+    "kind": "narrativo",
+    "title": "El diente que se movía",
+    "text": "A Julia se le movía un diente desde hacía tres días. No paraba de tocarlo con la lengua. En el desayuno mordió una tostada y, de repente, notó algo duro en la boca. Era el diente. Lo guardó en una cajita debajo de la almohada.",
+    "questions": [
+      "¿Cuántos días llevaba moviéndose el diente?",
+      "¿En qué momento se le cayó?",
+      "¿Dónde lo guardó?"
+    ]
+  },
+  {
+    "id": "r-abejas",
+    "cycle": 1,
+    "kind": "expositivo",
+    "title": "Las abejas",
+    "text": "Las abejas viven en colmenas, en grupos de miles. Salen a buscar el néctar de las flores y con él fabrican la miel. Sin darse cuenta, llevan polen de una flor a otra y así ayudan a que nazcan frutas nuevas. Por eso las abejas son tan importantes.",
+    "questions": [
+      "¿Qué fabrican con el néctar?",
+      "¿Qué llevan de una flor a otra?",
+      "¿Por qué dice el texto que son importantes?"
+    ]
+  },
+  {
+    "id": "r-otono",
+    "cycle": 1,
+    "kind": "descriptivo",
+    "title": "El parque en otoño",
+    "text": "En otoño el parque cambia de color. Las hojas se vuelven amarillas, naranjas y marrones, y caen al suelo formando una alfombra. Al pisarlas suenan. Por la mañana los bancos están mojados y hay castañas debajo de los árboles.",
+    "questions": [
+      "¿De qué colores se vuelven las hojas?",
+      "¿Con qué compara el texto las hojas caídas?",
+      "¿Qué hay debajo de los árboles?"
+    ]
+  },
+  {
+    "id": "r-paraguas",
+    "cycle": 1,
+    "kind": "narrativo",
+    "title": "El paraguas rojo",
+    "text": "Álvaro se dejó el paraguas rojo en el autobús. Cuando bajó, empezó a llover. Corrió hasta el portal con la mochila en la cabeza. Al día siguiente, el conductor lo estaba esperando en la parada con el paraguas en la mano.",
+    "questions": [
+      "¿Dónde se dejó el paraguas?",
+      "¿Qué hizo para no mojarse?",
+      "¿Quién se lo devolvió?"
+    ]
+  },
+  {
+    "id": "r-escondite",
+    "cycle": 1,
+    "kind": "instructivo",
+    "title": "El juego del escondite",
+    "text": "Uno se queda y cuenta hasta veinte con los ojos tapados.\nLos demás se esconden mientras tanto.\nCuando termina de contar, grita: ¡voy!\nEntonces sale a buscar a todos.\nEl primero al que encuentre se quedará en la siguiente ronda.",
+    "questions": [
+      "¿Hasta qué número hay que contar?",
+      "¿Qué hacen los demás mientras tanto?",
+      "¿Quién se queda en la ronda siguiente?"
+    ]
+  },
+  {
+    "id": "r-faro",
+    "cycle": 2,
+    "kind": "narrativo",
+    "title": "El farero",
+    "text": "Don Anselmo vivía en un faro, en lo alto de un acantilado. Cada noche subía ciento veinte escalones para encender la luz. Los barcos que pasaban lejos veían aquel punto brillante y sabían dónde estaba la costa. Don Anselmo nunca conoció a ninguno de esos marineros, pero decía que eran sus vecinos.",
+    "questions": [
+      "¿Cuántos escalones subía cada noche?",
+      "¿Para qué servía la luz del faro?",
+      "¿Por qué crees que llamaba 'vecinos' a los marineros?"
+    ]
+  },
+  {
+    "id": "r-mercado",
+    "cycle": 2,
+    "kind": "descriptivo",
+    "title": "El puesto de Rosa",
+    "text": "Rosa tiene un puesto de fruta en el mercado. Se levanta a las cuatro de la mañana para elegir la mejor fruta antes de que abran las tiendas. A las siete ya está colocando las naranjas en pirámides perfectas. Dice que la fruta hay que tocarla, no solo mirarla, y que por eso nunca venderá por internet.",
+    "questions": [
+      "¿A qué hora se levanta Rosa y para qué?",
+      "¿Qué opina Rosa sobre vender fruta por internet?",
+      "Escribe una palabra del texto que signifique lo mismo que 'poniendo'."
+    ]
+  },
+  {
+    "id": "r-puente",
+    "cycle": 2,
+    "kind": "narrativo",
+    "title": "El puente de piedra",
+    "text": "En mi pueblo hay un puente de piedra que lleva ahí más de trescientos años. Lo construyeron sin cemento: solo piedras encajadas unas con otras. Mi abuelo cuenta que una riada se llevó el puente nuevo de hormigón y el viejo no se movió. Desde entonces nadie se ríe del puente de piedra.",
+    "questions": [
+      "¿Cuánto tiempo lleva el puente en el pueblo?",
+      "¿Qué pasó durante la riada?",
+      "¿Qué quiere decir la última frase del texto?"
+    ]
+  },
+  {
+    "id": "r-pulpo",
+    "cycle": 2,
+    "kind": "expositivo",
+    "title": "Los pulpos",
+    "text": "El pulpo tiene tres corazones y la sangre azul. Puede cambiar de color en menos de un segundo para esconderse entre las rocas, y no solo cambia el color: también la textura de la piel, que se arruga o se alisa. Si un depredador le atrapa un brazo, el pulpo puede soltarlo y escapar; con el tiempo le crece otro. Los científicos que trabajan con pulpos cuentan que abren tarros, resuelven laberintos y reconocen a las personas que les dan de comer.",
+    "questions": [
+      "¿Cuántos corazones tiene un pulpo?",
+      "¿Qué dos cosas cambia para esconderse?",
+      "¿Qué ejemplos da el texto de que el pulpo es listo?"
+    ]
+  },
+  {
+    "id": "r-aguacate",
+    "cycle": 2,
+    "kind": "instructivo",
+    "title": "Cómo plantar un aguacate",
+    "text": "1. Cómete el aguacate y guarda el hueso. Lávalo bien.\n2. Clava tres palillos alrededor, a media altura.\n3. Apoya los palillos en el borde de un vaso, de forma que la parte ancha del hueso quede dentro del agua.\n4. Cambia el agua cada tres días.\n5. Ten paciencia: puede tardar más de un mes en abrirse y sacar la raíz.",
+    "questions": [
+      "¿Para qué sirven los palillos?",
+      "¿Qué parte del hueso tiene que quedar dentro del agua?",
+      "¿Cada cuánto hay que cambiar el agua?"
+    ]
+  },
+  {
+    "id": "r-bombero",
+    "cycle": 2,
+    "kind": "dialogado",
+    "title": "Entrevista a un bombero",
+    "text": "—¿Cuánto pesa el equipo que lleváis?\n—Unos veinticinco kilos con la botella de aire puesta.\n—¿Y no cansa?\n—Muchísimo. Por eso entrenamos todos los días.\n—¿Qué es lo más difícil de su trabajo?\n—La gente cree que es el fuego. No lo es. Lo más difícil es el humo: no ves nada y tienes que orientarte tocando las paredes.\n—¿Ha tenido miedo alguna vez?\n—Siempre. El que no tiene miedo comete errores.",
+    "questions": [
+      "¿Cuánto pesa el equipo completo?",
+      "Según el bombero, ¿qué es lo más difícil y por qué?",
+      "¿Qué quiere decir con que 'el que no tiene miedo comete errores'?"
+    ]
+  },
+  {
+    "id": "r-varada",
+    "cycle": 2,
+    "kind": "noticia",
+    "title": "Una ballena en la playa",
+    "text": "Ayer por la mañana apareció una ballena varada en la playa del Sardinero. Decenas de vecinos formaron una cadena con cubos de agua para mantenerla húmeda mientras llegaban los biólogos. A media tarde, con la marea alta, entre todos consiguieron devolverla al mar. Los biólogos explicaron que las ballenas encallan a veces porque están enfermas y otras porque persiguen un banco de peces demasiado cerca de la orilla.",
+    "questions": [
+      "¿Qué hicieron los vecinos y para qué?",
+      "¿Por qué crees que esperaron a media tarde?",
+      "¿Qué dos motivos dan los biólogos?"
+    ]
+  },
+  {
+    "id": "r-campamento",
+    "cycle": 2,
+    "kind": "carta",
+    "title": "Carta desde el campamento",
+    "text": "Queridos papás:\nLlevo cuatro días aquí y ya no quiero volver. Dormimos en tiendas de seis y por la noche se oyen las ranas del río. Ayer subimos a una cima y se veía todo el valle. Se me ha roto la linterna, pero Nuria me presta la suya.\nNo os preocupéis por la comida: me la como toda, hasta las lentejas.\nOs echo de menos igualmente.\nMarcos",
+    "questions": [
+      "¿Cuántos días lleva Marcos en el campamento?",
+      "¿Qué problema ha tenido y cómo lo ha resuelto?",
+      "¿Por qué crees que dice 'os echo de menos igualmente'?"
+    ]
+  },
+  {
+    "id": "r-viento",
+    "cycle": 2,
+    "kind": "poético",
+    "title": "El viento",
+    "text": "El viento no tiene manos\npero abre todas las puertas.\nEl viento no tiene pies\npero recorre la huerta.\n\nEl viento no tiene nombre\ny todos saben quién llega\ncuando la ropa tendida\nse pone a bailar sin cuerda.",
+    "questions": [
+      "¿Qué cosas hace el viento aunque no tenga manos ni pies?",
+      "¿Cómo sabemos que ha llegado el viento?",
+      "Explica qué quiere decir 'bailar sin cuerda'."
+    ]
+  },
+  {
+    "id": "r-talleres",
+    "cycle": 2,
+    "kind": "descriptivo",
+    "title": "La calle de los talleres",
+    "text": "En la calle de atrás casi todos los bajos son talleres. Huele a barniz y a metal caliente. El de la esquina arregla relojes; tiene la persiana medio bajada y hay que agacharse para entrar. Al lado hay un taller de bicicletas con las ruedas colgadas del techo como si fueran jamones. Al final de la calle está el más ruidoso: cortan mármol, y el suelo siempre está blanco de polvo.",
+    "questions": [
+      "¿A qué huele la calle?",
+      "¿Con qué compara el texto las ruedas colgadas?",
+      "¿Cuál es el taller más ruidoso y por qué?"
+    ]
+  },
+  {
+    "id": "r-cometa",
+    "cycle": 2,
+    "kind": "narrativo",
+    "title": "La cometa",
+    "text": "Elena tardó dos tardes en montar la cometa. La primera vez que la sacó no había viento y la arrastró por el suelo. La segunda, el viento era tan fuerte que se le escapó de las manos y se enganchó en un pino. Estuvo media hora mirándola desde abajo. Al final vino un vecino con una escalera. La cometa bajó con un agujero, pero bajó. Elena la remendó con cinta y desde entonces vuela mejor que antes.",
+    "questions": [
+      "¿Qué pasó la primera vez que la sacó?",
+      "¿Quién la ayudó a recuperarla?",
+      "¿Qué quiere decir 'bajó con un agujero, pero bajó'?"
+    ]
+  },
+  {
+    "id": "r-molinos",
+    "cycle": 2,
+    "kind": "expositivo",
+    "title": "Los molinos de viento",
+    "text": "Antes de la electricidad, moler el trigo era un trabajo lentísimo. Por eso, cuando llegaron los molinos de viento, cambiaron pueblos enteros. Las aspas movían una rueda de piedra que aplastaba el grano, y en un día se hacía lo que antes costaba semanas. El molinero tenía que estar muy atento: si el viento soplaba demasiado fuerte, las piedras se recalentaban por el roce y el molino podía incendiarse. En La Mancha todavía se conservan decenas de molinos en lo alto de los cerros.",
+    "questions": [
+      "¿Qué movían las aspas del molino?",
+      "¿Por qué era peligroso el viento demasiado fuerte?",
+      "¿Por qué crees que los molinos se construían en lo alto?"
+    ]
+  },
+  {
+    "id": "r-bicicleta",
+    "cycle": 2,
+    "kind": "narrativo",
+    "title": "La bicicleta de mi hermana",
+    "text": "Mi bicicleta era de mi hermana, y antes de mi prima. Tiene un arañazo en el cuadro con forma de rayo y el timbre no suena: solo hace clac. Mi padre le cambió las ruedas y le puso un sillín nuevo, así que de la bici original queda poco. Aun así, todos en casa la llamamos 'la bici de Marta'. Marta ya tiene dieciocho años y ni se acuerda de ella.",
+    "questions": [
+      "¿Cuántas personas han usado la bicicleta?",
+      "¿Qué piezas le ha cambiado el padre?",
+      "¿Por qué crees que la siguen llamando 'la bici de Marta'?"
+    ]
+  },
+  {
+    "id": "r-tortugas",
+    "cycle": 2,
+    "kind": "expositivo",
+    "title": "Las tortugas marinas",
+    "text": "Las tortugas marinas nacen de noche, en la arena, y lo primero que hacen es correr hacia el mar guiándose por la luz de la luna reflejada en el agua. Por eso las farolas de los paseos marítimos son un problema: confunden a las crías, que salen hacia la carretera en vez de hacia las olas. Las hembras que llegan a adultas vuelven, veinte o treinta años después, a poner sus huevos en la misma playa donde nacieron. Todavía no se sabe con seguridad cómo la reconocen.",
+    "questions": [
+      "¿Qué usan las crías para orientarse al nacer?",
+      "¿Por qué molestan las farolas?",
+      "¿Qué hacen las hembras muchos años después?"
+    ]
+  },
+  {
+    "id": "r-biblioteca",
+    "cycle": 2,
+    "kind": "instructivo",
+    "title": "Normas de la biblioteca",
+    "text": "Habla en voz baja: si te oyen desde la mesa de al lado, estás hablando demasiado alto.\nDeja los libros que consultes en el carrito, no en la estantería. Colocarlos mal es peor que no colocarlos.\nPuedes llevarte dos libros a la vez durante quince días.\nSi se te pasa la fecha no ocurre nada grave: devuélvelo y ya está. Lo que no vale es quedárselo.",
+    "questions": [
+      "¿Cómo sabes si estás hablando demasiado alto?",
+      "¿Por qué hay que dejar los libros en el carrito?",
+      "¿Cuántos libros puedes llevarte y durante cuánto tiempo?"
+    ]
+  },
+  {
+    "id": "r-ballena",
+    "cycle": 3,
+    "kind": "expositivo",
+    "title": "El canto de las ballenas",
+    "text": "Las ballenas jorobadas cantan. No son sonidos al azar: repiten frases completas durante horas, y todos los machos de una misma zona del océano cantan la misma canción. Lo asombroso es que esa canción cambia cada temporada, y el cambio se contagia de un grupo a otro hasta recorrer miles de kilómetros. Los científicos aún discuten para qué sirve exactamente, pero coinciden en algo: es cultura, se aprende y se transmite.",
+    "questions": [
+      "¿Qué tienen en común los cantos de los machos de una misma zona?",
+      "¿Por qué dicen los científicos que el canto es 'cultura'?",
+      "Explica con tus palabras qué significa que el cambio 'se contagia'."
+    ]
+  },
+  {
+    "id": "r-imprenta",
+    "cycle": 3,
+    "kind": "expositivo",
+    "title": "Antes de la imprenta",
+    "text": "Antes del siglo XV, copiar un libro era trabajo de meses. Un monje escribía a mano, letra a letra, y un solo error obligaba a raspar el pergamino. Por eso los libros eran carísimos y casi nadie sabía leer: no había casi nada que leer. Cuando Gutenberg montó su imprenta de tipos móviles, el precio de un libro se desplomó. En cincuenta años Europa pasó de unos pocos miles de libros a millones.",
+    "questions": [
+      "¿Por qué eran tan caros los libros antes de la imprenta?",
+      "El texto dice que casi nadie sabía leer porque 'no había casi nada que leer'. ¿Qué quiere decir?",
+      "¿Qué consecuencia tuvo la imprenta según el último párrafo?"
+    ]
+  },
+  {
+    "id": "r-desierto",
+    "cycle": 3,
+    "kind": "expositivo",
+    "title": "El río que no llega al mar",
+    "text": "El Okavango nace en las montañas de Angola y baja con fuerza hacia el sur. Pero nunca llega al océano: se abre en un inmenso delta en mitad del desierto del Kalahari y allí se evapora y se filtra. Ese final aparentemente triste crea uno de los humedales con más vida del planeta. Cada año, cuando llega la crecida, el desierto se llena de elefantes, aves y peces durante unos meses.",
+    "questions": [
+      "¿Dónde termina el río Okavango?",
+      "¿Por qué dice el texto que el final es 'aparentemente' triste?",
+      "¿Qué ocurre en el delta cuando llega la crecida?"
+    ]
+  },
+  {
+    "id": "r-tardigrado",
+    "cycle": 3,
+    "kind": "expositivo",
+    "title": "Los osos de agua",
+    "text": "Miden menos de un milímetro y se llaman tardígrados, aunque casi todo el mundo los conoce como osos de agua. Viven en el musgo, en la arena de la playa y en el fondo del mar. Lo asombroso no es su aspecto, sino lo que aguantan: cuando su entorno se seca, expulsan casi toda el agua de su cuerpo, se encogen hasta formar una especie de barril y detienen su metabolismo. En ese estado han sobrevivido a temperaturas altísimas y a otras cercanas al cero absoluto, a presiones mucho mayores que las del fondo del océano e incluso a unos minutos en el vacío del espacio. Pueden pasar años así. Basta una gota de agua para que se rehidraten y sigan como si nada. Conviene aclarar algo: un tardígrado activo es tan frágil como cualquier otro animal diminuto. Su superpoder no es resistir, es saber apagarse.",
+    "questions": [
+      "¿Qué le ocurre a un tardígrado cuando su entorno se seca?",
+      "¿Qué hace falta para que vuelva a la actividad?",
+      "Explica con tus palabras la última frase del texto."
+    ]
+  },
+  {
+    "id": "r-moviles",
+    "cycle": 3,
+    "kind": "argumentativo",
+    "title": "¿Móviles en clase?",
+    "text": "Cada curso se repite la misma discusión: ¿deben los alumnos llevar el móvil a clase? Quienes están a favor dicen que es una herramienta más, que sirve para buscar información y que prohibirlo no prepara a nadie para el mundo real. Quienes están en contra responden con datos: varios estudios han medido que la sola presencia del teléfono sobre la mesa, aunque esté apagado, empeora los resultados de atención. No hace falta mirarlo; basta con saber que está ahí.\nLa mayoría de los centros ha optado por una solución intermedia: el móvil se guarda durante las clases y se usa solo cuando el profesor lo pide para una actividad concreta. No es una prohibición ni una barra libre.\nSea cual sea la norma, hay algo en lo que casi todos coinciden: la decisión no debería tomarse por costumbre ni por moda, sino mirando qué le pasa de verdad a la atención de los alumnos.",
+    "questions": [
+      "¿Qué argumento dan los que están a favor?",
+      "¿Qué han medido los estudios que cita el texto?",
+      "¿Cuál es la solución intermedia y por qué crees que se ha extendido?"
+    ]
+  },
+  {
+    "id": "r-calzada",
+    "cycle": 3,
+    "kind": "noticia",
+    "title": "Una calzada romana bajo el aparcamiento",
+    "text": "Las obras de un aparcamiento subterráneo en el centro de la ciudad se detuvieron el martes al aparecer, a cuatro metros de profundidad, un tramo de calzada romana de casi treinta metros. Los arqueólogos que acudieron al lugar identificaron las losas y, debajo, las capas de piedra y arena con las que los romanos construían sus caminos para que el agua no se estancara.\nEl hallazgo obligará a modificar el proyecto. El ayuntamiento estudia dos opciones: trasladar los restos a un museo o cubrirlos con un suelo de cristal para que se vean desde el aparcamiento. La segunda es más cara, pero la asociación de vecinos ya ha pedido por escrito que se elija esa.\nLas obras seguirán paradas al menos dos meses.",
+    "questions": [
+      "¿Qué encontraron y a qué profundidad?",
+      "¿Para qué servían las capas que había bajo las losas?",
+      "¿Por qué crees que los vecinos prefieren la opción más cara?"
+    ]
+  },
+  {
+    "id": "r-cajal",
+    "cycle": 3,
+    "kind": "biográfico",
+    "title": "El niño que solo quería dibujar",
+    "text": "De niño, Santiago Ramón y Cajal fue un desastre en el colegio. Su padre, harto, lo sacó de clase y lo puso a trabajar de aprendiz, primero con un barbero y luego con un zapatero. Lo único que le interesaba era dibujar, y su padre consideraba que dibujar no era un oficio.\nAños después, ese mismo empeño lo convirtió en el científico español más importante de su tiempo. Cajal pasaba las noches mirando por el microscopio cortes finísimos de tejido nervioso y dibujando con una precisión asombrosa lo que veía. Así demostró que el cerebro no es una red continua, como se creía entonces, sino que está formado por células separadas que se comunican entre sí: las neuronas.\nEn 1906 recibió el Premio Nobel. Sus dibujos se siguen usando hoy en las facultades de medicina, más de cien años después.",
+    "questions": [
+      "¿Qué oficios le hizo aprender su padre?",
+      "¿Qué demostró Cajal sobre el cerebro?",
+      "¿Qué tiene de irónico que su padre despreciara el dibujo?"
+    ]
+  },
+  {
+    "id": "r-medulas",
+    "cycle": 3,
+    "kind": "descriptivo",
+    "title": "Las Médulas",
+    "text": "Desde lejos, Las Médulas parecen un paisaje natural: picos de tierra roja, cortados a pico, con castaños creciendo entre ellos. No lo son. Es lo que quedó de la mayor mina de oro del Imperio Romano.\nLos romanos no excavaron la montaña: la reventaron. Traían agua desde las sierras cercanas por canales de decenas de kilómetros, la almacenaban en depósitos en lo alto y luego la soltaban de golpe por galerías perforadas dentro del monte. La presión hacía estallar la ladera desde dentro. Al método lo llamaban ruina montium, la ruina de los montes.\nDurante casi dos siglos trabajaron allí miles de personas. Después los romanos se fueron y el bosque volvió despacio. Hoy es Patrimonio de la Humanidad, y mucha gente que lo visita tarda un rato en entender que lo que está viendo no lo hizo la naturaleza.",
+    "questions": [
+      "¿En qué consistía el método llamado ruina montium?",
+      "¿Para qué construían canales de decenas de kilómetros?",
+      "¿Por qué dice el texto que la gente 'tarda un rato en entender' lo que ve?"
+    ]
+  },
+  {
+    "id": "r-olfato",
+    "cycle": 3,
+    "kind": "expositivo",
+    "title": "El olfato de los perros",
+    "text": "Un perro tiene unos trescientos millones de receptores olfativos; nosotros, unos seis millones. Pero la diferencia importante no está en el número, sino en cómo respiran. Cuando un perro olfatea, el aire se divide en dos caminos dentro de su hocico: una parte va a los pulmones y la otra, a una zona reservada solo para oler. Además, expulsa el aire por las ranuras laterales de la nariz, de modo que lo que sale no barre el olor que está entrando.\nEsto le permite hacer algo que nosotros no podemos: percibir un olor de forma continua mientras respira, y comparar su intensidad entre un orificio y otro para saber de qué lado viene. Por eso un perro de rescate no solo detecta a una persona enterrada bajo la nieve: además sabe hacia dónde caminar.",
+    "questions": [
+      "¿Cuántos receptores tiene un perro frente a una persona?",
+      "Según el texto, ¿por qué no es el número lo más importante?",
+      "¿Cómo sabe un perro de qué lado viene un olor?"
+    ]
+  },
+  {
+    "id": "r-tren",
+    "cycle": 3,
+    "kind": "narrativo",
+    "title": "El último tren",
+    "text": "La estación de Valdealba tuvo jefe hasta 1987. Después quedó como simple apeadero: el tren paraba solo si alguien esperaba en el andén y hacía una señal.\nDon Félix, el último jefe de estación, se quedó a vivir en el pueblo. Cada tarde, a las siete menos diez, salía de casa, cruzaba la vía y se quedaba de pie en el andén hasta que pasaba el tren. No esperaba a nadie y no iba a subirse. Los vecinos tardaron años en atreverse a preguntarle por qué lo hacía.\n—Por si alguien mira por la ventanilla —dijo—. Que vea que aquí hay alguien.",
+    "questions": [
+      "¿Qué diferencia hay entre una estación y un apeadero, según el texto?",
+      "¿Qué hacía don Félix cada tarde a las siete menos diez?",
+      "¿Qué te parece su respuesta? Explícala con tus palabras."
+    ]
+  },
+  {
+    "id": "r-luna-cara",
+    "cycle": 3,
+    "kind": "expositivo",
+    "title": "La cara oculta de la Luna",
+    "text": "Desde la Tierra vemos siempre la misma mitad de la Luna. Mucha gente deduce de ahí que la Luna no gira, pero es justo al revés: gira, y lo hace de una manera muy precisa. Tarda exactamente lo mismo en dar una vuelta sobre sí misma que en dar una vuelta alrededor de la Tierra, unos veintisiete días. A eso se le llama rotación síncrona.\nNo es casualidad. Hace miles de millones de años la Luna giraba más deprisa. La gravedad de la Tierra deforma ligeramente la roca lunar, y ese roce interno ha ido frenando su rotación hasta encajarla con su órbita. Es un proceso lento e inevitable, y le ocurre a casi todas las lunas grandes del sistema solar.\nLa cara oculta, por cierto, no es oscura: recibe tanto sol como la que vemos. Simplemente, desde aquí no la vemos nunca.",
+    "questions": [
+      "¿Qué es la rotación síncrona?",
+      "¿Qué ha ido frenando la rotación de la Luna?",
+      "¿Por qué dice el texto que la cara oculta no es oscura?"
+    ]
+  },
+  {
+    "id": "r-esclusa",
+    "cycle": 3,
+    "kind": "instructivo",
+    "title": "Cómo funciona una esclusa",
+    "text": "Un barco no puede subir una cuesta, pero un canal sí puede tener desniveles. La solución se llama esclusa y tiene más de quinientos años.\nUna esclusa es una cámara cerrada por dos puertas, una aguas arriba y otra aguas abajo. Si el barco viene del tramo bajo, se abre la puerta de abajo, el barco entra y esa puerta se cierra. Entonces se deja pasar agua del tramo alto por unas compuertas. El nivel dentro de la cámara sube, y con él el barco, hasta igualarse con el tramo superior. Solo entonces se abre la puerta de arriba y el barco continúa.\nPara bajar se hace lo contrario: se vacía la cámara. Lo notable es que todo el sistema funciona sin bombas ni motores: solo con la gravedad y con el agua que ya está en el canal.",
+    "questions": [
+      "¿Cuántas puertas tiene una esclusa y dónde están?",
+      "¿Qué es lo que hace subir al barco?",
+      "¿Por qué es notable que no necesite motores?"
+    ]
+  },
+  {
+    "id": "r-elefantes",
+    "cycle": 3,
+    "kind": "expositivo",
+    "title": "La memoria de los elefantes",
+    "text": "El dicho de que los elefantes nunca olvidan tiene más fundamento del que parece. En las manadas africanas manda siempre una hembra vieja, la matriarca, y su papel no es imponer orden: es recordar.\nDurante una fuerte sequía en Tanzania, los investigadores observaron algo llamativo. Las manadas cuyas matriarcas habían vivido una sequía anterior, décadas atrás, abandonaron el parque y llevaron a sus crías a zonas donde había agua, a decenas de kilómetros. Las manadas con matriarcas más jóvenes se quedaron donde estaban. Entre estas últimas murieron muchas más crías.\nLa información que salvó a aquellas manadas no estaba escrita en ninguna parte ni era instintiva: era el recuerdo de una sola elefanta que muchos años antes había hecho el mismo camino.",
+    "questions": [
+      "¿Cuál es el papel principal de la matriarca?",
+      "¿Qué diferencia hubo entre unas manadas y otras durante la sequía?",
+      "¿Por qué dice el texto que esa información 'no era instintiva'?"
+    ]
+  },
+  {
+    "id": "r-reciclar",
+    "cycle": 3,
+    "kind": "argumentativo",
+    "title": "¿Sirve de algo reciclar en casa?",
+    "text": "Cada vez que alguien separa la basura en casa aparece la misma objeción: si las grandes industrias contaminan muchísimo más, ¿para qué molestarse?\nEl argumento tiene una parte cierta. Las cifras de emisiones industriales son enormes comparadas con las domésticas, y ningún gesto individual las compensa. Pero el razonamiento falla en algo: da por hecho que reciclar en casa y exigir cambios a las empresas son cosas incompatibles, y no lo son.\nAdemás, el reciclaje doméstico no se mide solo en toneladas. Un contenedor amarillo mal separado obliga a descartar cargas enteras en la planta de tratamiento, así que el error de muchas casas sí tiene un efecto grande y medible. Y separar la basura mantiene el problema a la vista, lo que hace más probable que alguien exija también lo otro.\nReciclar en casa no salva el planeta. Dejar de hacerlo tampoco lo salva.",
+    "questions": [
+      "¿Qué objeción se plantea al principio del texto?",
+      "¿Qué error dice el autor que tiene ese razonamiento?",
+      "Explica con tus palabras la última frase."
+    ]
+  },
+  {
+    "id": "r-restauradora",
+    "cycle": 3,
+    "kind": "dialogado",
+    "title": "Entrevista a una restauradora",
+    "text": "—¿En qué consiste exactamente su trabajo?\n—En quitar, sobre todo. La gente imagina que pintamos encima. Es al revés: retiramos barnices amarillentos, suciedad y los retoques que hicieron otros restauradores hace cien años.\n—¿Y si se equivoca?\n—Por eso todo lo que hacemos tiene que ser reversible. Usamos materiales que otra persona pueda quitar dentro de cincuenta años sin dañar el original. Es la regla número uno.\n—¿Cuánto tarda con un cuadro?\n—Depende. Uno pequeño, tres meses. He tenido uno grande cuatro años.\n—¿No se cansa?\n—Trabajo con un pincel de tres pelos sobre una superficie del tamaño de una moneda. Si eso cansa a alguien, este no es su oficio.",
+    "questions": [
+      "¿En qué consiste principalmente su trabajo?",
+      "¿Cuál es la regla número uno y por qué existe?",
+      "¿Qué quiere decir con su última respuesta?"
+    ]
+  }
+]

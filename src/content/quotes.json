@@ -1,0 +1,20 @@
+[
+  { "id": "q1", "cycle": 1, "text": "Poco a poco se va lejos.", "author": "Refrán" },
+  { "id": "q2", "cycle": 1, "text": "Quien mucho abarca, poco aprieta.", "author": "Refrán" },
+  { "id": "q3", "cycle": 1, "text": "A quien madruga, Dios le ayuda.", "author": "Refrán" },
+  { "id": "q4", "cycle": 1, "text": "Más vale maña que fuerza.", "author": "Refrán" },
+  { "id": "q5", "cycle": 1, "text": "No dejes para mañana lo que puedas hacer hoy.", "author": "Refrán" },
+  { "id": "q6", "cycle": 1, "text": "De los errores se aprende.", "author": "Refrán" },
+  { "id": "q7", "cycle": 2, "text": "El que lee mucho y anda mucho, ve mucho y sabe mucho.", "author": "Miguel de Cervantes" },
+  { "id": "q8", "cycle": 2, "text": "Caminante, no hay camino, se hace camino al andar.", "author": "Antonio Machado" },
+  { "id": "q9", "cycle": 2, "text": "Donde hay educación no hay distinción de clases.", "author": "Confucio" },
+  { "id": "q10", "cycle": 2, "text": "La paciencia es amarga, pero su fruto es dulce.", "author": "Refrán" },
+  { "id": "q11", "cycle": 2, "text": "Un libro abierto es un cerebro que habla.", "author": "Proverbio árabe" },
+  { "id": "q12", "cycle": 2, "text": "Quien no arriesga, no gana.", "author": "Refrán" },
+  { "id": "q13", "cycle": 3, "text": "Solo sé que no sé nada.", "author": "Sócrates" },
+  { "id": "q14", "cycle": 3, "text": "La duda es el principio de la sabiduría.", "author": "Aristóteles" },
+  { "id": "q15", "cycle": 3, "text": "El que tiene un porqué para vivir, soporta casi cualquier cómo.", "author": "Friedrich Nietzsche" },
+  { "id": "q16", "cycle": 3, "text": "Un viaje de mil millas comienza con un solo paso.", "author": "Lao Tse" },
+  { "id": "q17", "cycle": 3, "text": "Nada en la vida debe ser temido, solo comprendido.", "author": "Marie Curie" },
+  { "id": "q18", "cycle": 3, "text": "La libertad no consiste en hacer lo que se quiere, sino en querer lo que se hace.", "author": "Proverbio" }
+]

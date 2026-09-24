@@ -1,0 +1,28 @@
+{
+  "name": "daily-sheet",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "check": "esbuild scripts/check-balance.mts --bundle --format=esm --platform=node --jsx=automatic --loader:.json=json --outfile=node_modules/.cache/check.mjs --log-level=error && node node_modules/.cache/check.mjs"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "spelling": [
+    { "id": "sp1",  "cycle": 1, "rule": "c / qu", "word": "_ueso",     "answer": "q",  "options": ["c", "q"] },
+    { "id": "sp2",  "cycle": 1, "rule": "c / qu", "word": "_asa",      "answer": "c",  "options": ["c", "q"] },
+    { "id": "sp3",  "cycle": 1, "rule": "r / rr", "word": "pe_o",      "answer": "rr", "options": ["r", "rr"] },
+    { "id": "sp4",  "cycle": 1, "rule": "r / rr", "word": "ca_eta",    "answer": "rr", "options": ["r", "rr"] },
+    { "id": "sp5",  "cycle": 1, "rule": "m antes de p/b", "word": "ca_po", "answer": "m", "options": ["m", "n"] },
+    { "id": "sp6",  "cycle": 1, "rule": "m antes de p/b", "word": "so_brero", "answer": "m", "options": ["m", "n"] },
+    { "id": "sp7",  "cycle": 2, "rule": "b / v", "word": "escri_ir",   "answer": "b",  "options": ["b", "v"] },
+    { "id": "sp8",  "cycle": 2, "rule": "b / v", "word": "_erdad",     "answer": "v",  "options": ["b", "v"] },
+    { "id": "sp9",  "cycle": 2, "rule": "b / v", "word": "cantá_amos", "answer": "b",  "options": ["b", "v"] },
+    { "id": "sp10", "cycle": 2, "rule": "h",     "word": "_ueso",      "answer": "h",  "options": ["h", "-"] },
+    { "id": "sp11", "cycle": 2, "rule": "h",     "word": "_ermano",    "answer": "h",  "options": ["h", "-"] },
+    { "id": "sp12", "cycle": 2, "rule": "g / j", "word": "_irafa",     "answer": "g",  "options": ["g", "j"] },
+    { "id": "sp13", "cycle": 2, "rule": "g / j", "word": "relo_",      "answer": "j",  "options": ["g", "j"] },
+    { "id": "sp14", "cycle": 3, "rule": "ll / y", "word": "ca_e",      "answer": "ll", "options": ["ll", "y"] },
+    { "id": "sp15", "cycle": 3, "rule": "ll / y", "word": "a_er",      "answer": "y",  "options": ["ll", "y"] },
+    { "id": "sp16", "cycle": 3, "rule": "b / v", "word": "ad_ertencia","answer": "v",  "options": ["b", "v"] },
+    { "id": "sp17", "cycle": 3, "rule": "x / s", "word": "e_traño",    "answer": "x",  "options": ["x", "s"] },
+    { "id": "sp18", "cycle": 3, "rule": "cc / c", "word": "a_ión",     "answer": "cc", "options": ["cc", "c"] },
+    { "id": "sp19", "cycle": 3, "rule": "cc / c", "word": "can_ión",   "answer": "c",  "options": ["cc", "c"] },
+    { "id": "sp20", "cycle": 3, "rule": "h",     "word": "ex_austo",   "answer": "h",  "options": ["h", "-"] }
+  ],
+  "wordFamilies": [
+    { "cycle": 1, "prompt": "sol",    "hint": "solear, solete..." },
+    { "cycle": 1, "prompt": "flor",   "hint": "florero, florecer..." },
+    { "cycle": 1, "prompt": "pan",    "hint": "panadero, panecillo..." },
+    { "cycle": 2, "prompt": "mar",    "hint": "marino, marea..." },
+    { "cycle": 2, "prompt": "libro",  "hint": "librería, librero..." },
+    { "cycle": 2, "prompt": "hierro", "hint": "herrero, herradura..." },
+    { "cycle": 3, "prompt": "tierra", "hint": "terrestre, enterrar..." },
+    { "cycle": 3, "prompt": "agua",   "hint": "acuático, aguacero..." },
+    { "cycle": 3, "prompt": "fuego",  "hint": "ígneo, fogata..." }
+  ],
+  "sentenceOrder": [
+    { "cycle": 1, "words": ["El", "gato", "duerme", "en", "el", "sofá"] },
+    { "cycle": 1, "words": ["Mi", "hermana", "come", "una", "manzana"] },
+    { "cycle": 1, "words": ["Los", "pájaros", "vuelan", "muy", "alto"] },
+    { "cycle": 2, "words": ["Ayer", "por", "la", "tarde", "fuimos", "al", "parque"] },
+    { "cycle": 2, "words": ["El", "maestro", "explicó", "la", "lección", "con", "paciencia"] },
+    { "cycle": 2, "words": ["Un", "coche", "rojo", "aparcó", "delante", "de", "casa"] },
+    { "cycle": 3, "words": ["Aunque", "llovía", "mucho", "decidimos", "salir", "a", "caminar"] },
+    { "cycle": 3, "words": ["La", "biblioteca", "que", "visitamos", "guarda", "manuscritos", "antiguos"] },
+    { "cycle": 3, "words": ["Nadie", "sabía", "explicar", "por", "qué", "el", "reloj", "se", "había", "parado"] }
+  ]
+}
