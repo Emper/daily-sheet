@@ -3,8 +3,18 @@ import quotes from '../content/quotes.json'
 import readings from '../content/readings.json'
 import { pickFresh } from '../core/pick'
 import type { Cycle, ExerciseType, GenContext, Grade } from '../core/types'
-import { SHEET } from '../core/layout'
-import { Blank, Lines, lineHeightFor, rowsFor } from './ui'
+import {
+  Blank,
+  HEAD_MM,
+  Lines,
+  Scramble,
+  scrambleMM,
+  TEXT_LINE_MM,
+  lineHeightFor,
+  mmToRows,
+  rowsFor,
+  textLines,
+} from './ui'
 
 const G: readonly Grade[] = [1, 2, 3, 4, 5, 6]
 
@@ -17,14 +27,6 @@ function byCycle<T extends { cycle: number }>(items: readonly T[], cycle: Cycle)
 
 /* ----------------------------------------------------------------- lectura */
 
-/**
- * Cuántos caracteres entran en una línea y cuánto mide esa línea, por
- * ciclo. El bloque de lectura ocupa las dos columnas (~184 mm útiles) y
- * el cuerpo de letra va de 12,5 pt en 1er ciclo a 10 pt en 3o.
- */
-const CHARS_PER_LINE: Record<Cycle, number> = { 1: 78, 2: 90, 3: 100 }
-const TEXT_LINE_MM: Record<Cycle, number> = { 1: 5.9, 2: 5.2, 3: 4.7 }
-const HEAD_MM: Record<Cycle, number> = { 1: 13, 2: 11.5, 3: 10.5 }
 
 /** Cómo se presenta el texto según su tipología. */
 const READ_INTRO: Record<string, string> = {
@@ -48,15 +50,10 @@ const READ_INTRO: Record<string, string> = {
  */
 function readingRows(text: string, questions: number, cycle: Cycle): number {
   const paragraphs = text.split('\n')
-  const lines = paragraphs.reduce(
-    (n, p) => n + (p.trim() === '' ? 0.5 : Math.ceil(p.length / CHARS_PER_LINE[cycle])),
-    0,
-  )
-  const textMM = lines * TEXT_LINE_MM[cycle] + (paragraphs.length - 1) * 0.5
+  const textMM = textLines(text, cycle, 2) * TEXT_LINE_MM[cycle] + (paragraphs.length - 1) * 0.5
   // Cada pregunta: su enunciado más el renglón donde se contesta.
   const questionMM = questions * (TEXT_LINE_MM[cycle] * 0.9 + lineHeightFor(cycle) + 1.2)
-  const totalMM = (HEAD_MM[cycle] + textMM + questionMM) * 1.06
-  return Math.ceil((totalMM + SHEET.GAP_MM) / (SHEET.ROW_MM + SHEET.GAP_MM))
+  return mmToRows(HEAD_MM[cycle] + textMM + questionMM)
 }
 
 const lectura: ExerciseType = {
@@ -185,6 +182,9 @@ const orden: ExerciseType = {
   grades: G,
   generate({ cycle, contentCycle, rng }: GenContext) {
     const items = rng.sample(byCycle(lengua.sentenceOrder, contentCycle), 2)
+    // Antes cada frase tenía un solo renglón, y en 3er ciclo una frase de
+    // diez palabras escrita a mano no cabe en uno.
+    const bodyMM = items.reduce((mm, it) => mm + scrambleMM(it.words, cycle), 0)
     return {
       typeId: orden.id,
       title: 'Ordena las palabras',
@@ -192,20 +192,11 @@ const orden: ExerciseType = {
       subject: 'lengua',
       format: 'logica',
       cols: 1,
-      rows: rowsFor(cycle, 7),
+      rows: mmToRows(HEAD_MM[cycle] + bodyMM),
       body: (
         <>
           {items.map((it, i) => (
-            <div key={i} className="scramble">
-              <div className="scramble__words">
-                {rng.shuffle(it.words).map((w, j) => (
-                  <span key={j} className="scramble__word">
-                    {w}
-                  </span>
-                ))}
-              </div>
-              <Lines n={1} cycle={cycle} />
-            </div>
+            <Scramble key={i} words={it.words} shuffled={rng.shuffle(it.words)} cycle={cycle} />
           ))}
         </>
       ),

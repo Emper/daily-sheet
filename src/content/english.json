@@ -1,65 +1,1452 @@
 {
   "gaps": [
-    { "id": "eg1",  "cycle": 1, "sentence": "I ___ a dog. His name is Max.", "answer": "have" },
-    { "id": "eg2",  "cycle": 1, "sentence": "She ___ my sister.", "answer": "is" },
-    { "id": "eg3",  "cycle": 1, "sentence": "The sun is ___ .", "answer": "yellow" },
-    { "id": "eg4",  "cycle": 1, "sentence": "I go to ___ every morning.", "answer": "school" },
-    { "id": "eg5",  "cycle": 1, "sentence": "We eat breakfast in the ___ .", "answer": "morning" },
-    { "id": "eg6",  "cycle": 1, "sentence": "A cat has four ___ .", "answer": "legs" },
-    { "id": "eg7",  "cycle": 1, "sentence": "My favourite colour is ___ .", "answer": "blue" },
-    { "id": "eg8",  "cycle": 1, "sentence": "It is cold. Put on your ___ .", "answer": "coat" },
-    { "id": "eg9",  "cycle": 2, "sentence": "They ___ football every Saturday.", "answer": "play" },
-    { "id": "eg10", "cycle": 2, "sentence": "Yesterday we ___ to the museum.", "answer": "went" },
-    { "id": "eg11", "cycle": 2, "sentence": "There ___ three apples on the table.", "answer": "are" },
-    { "id": "eg12", "cycle": 2, "sentence": "My brother is ___ than me.", "answer": "taller" },
-    { "id": "eg13", "cycle": 2, "sentence": "She doesn't like fish, and I don't ___ .", "answer": "either" },
-    { "id": "eg14", "cycle": 2, "sentence": "Look! It ___ raining.", "answer": "is" },
-    { "id": "eg15", "cycle": 2, "sentence": "How ___ books do you have?", "answer": "many" },
-    { "id": "eg16", "cycle": 2, "sentence": "I usually get ___ at seven o'clock.", "answer": "up" },
-    { "id": "eg17", "cycle": 3, "sentence": "If it rains tomorrow, we ___ stay at home.", "answer": "will" },
-    { "id": "eg18", "cycle": 3, "sentence": "I have ___ finished my homework.", "answer": "already" },
-    { "id": "eg19", "cycle": 3, "sentence": "This bridge ___ built in 1890.", "answer": "was" },
-    { "id": "eg20", "cycle": 3, "sentence": "She has lived here ___ 2019.", "answer": "since" },
-    { "id": "eg21", "cycle": 3, "sentence": "You ___ to wear a helmet. It's the rule.", "answer": "have" },
-    { "id": "eg22", "cycle": 3, "sentence": "He asked me ___ I was tired.", "answer": "if" },
-    { "id": "eg23", "cycle": 3, "sentence": "That's the boy ___ father is a pilot.", "answer": "whose" },
-    { "id": "eg24", "cycle": 3, "sentence": "I'm not used ___ getting up so early.", "answer": "to" }
+    {
+      "id": "eg1",
+      "cycle": 1,
+      "sentence": "I ___ a dog. His name is Max.",
+      "answer": "have"
+    },
+    {
+      "id": "eg2",
+      "cycle": 1,
+      "sentence": "She ___ my sister.",
+      "answer": "is"
+    },
+    {
+      "id": "eg3",
+      "cycle": 1,
+      "sentence": "The sun is ___ .",
+      "answer": "yellow"
+    },
+    {
+      "id": "eg4",
+      "cycle": 1,
+      "sentence": "I go to ___ every morning.",
+      "answer": "school"
+    },
+    {
+      "id": "eg5",
+      "cycle": 1,
+      "sentence": "We eat breakfast in the ___ .",
+      "answer": "morning"
+    },
+    {
+      "id": "eg6",
+      "cycle": 1,
+      "sentence": "A cat has four ___ .",
+      "answer": "legs"
+    },
+    {
+      "id": "eg7",
+      "cycle": 1,
+      "sentence": "My favourite colour is ___ .",
+      "answer": "blue"
+    },
+    {
+      "id": "eg8",
+      "cycle": 1,
+      "sentence": "It is cold. Put on your ___ .",
+      "answer": "coat"
+    },
+    {
+      "id": "eg9",
+      "cycle": 2,
+      "sentence": "They ___ football every Saturday.",
+      "answer": "play"
+    },
+    {
+      "id": "eg10",
+      "cycle": 2,
+      "sentence": "Yesterday we ___ to the museum.",
+      "answer": "went"
+    },
+    {
+      "id": "eg11",
+      "cycle": 2,
+      "sentence": "There ___ three apples on the table.",
+      "answer": "are"
+    },
+    {
+      "id": "eg12",
+      "cycle": 2,
+      "sentence": "My brother is ___ than me.",
+      "answer": "taller"
+    },
+    {
+      "id": "eg13",
+      "cycle": 2,
+      "sentence": "She doesn't like fish, and I don't ___ .",
+      "answer": "either"
+    },
+    {
+      "id": "eg14",
+      "cycle": 2,
+      "sentence": "Look! It ___ raining.",
+      "answer": "is"
+    },
+    {
+      "id": "eg15",
+      "cycle": 2,
+      "sentence": "How ___ books do you have?",
+      "answer": "many"
+    },
+    {
+      "id": "eg16",
+      "cycle": 2,
+      "sentence": "I usually get ___ at seven o'clock.",
+      "answer": "up"
+    },
+    {
+      "id": "eg17",
+      "cycle": 3,
+      "sentence": "If it rains tomorrow, we ___ stay at home.",
+      "answer": "will"
+    },
+    {
+      "id": "eg18",
+      "cycle": 3,
+      "sentence": "I have ___ finished my homework.",
+      "answer": "already"
+    },
+    {
+      "id": "eg19",
+      "cycle": 3,
+      "sentence": "This bridge ___ built in 1890.",
+      "answer": "was"
+    },
+    {
+      "id": "eg20",
+      "cycle": 3,
+      "sentence": "She has lived here ___ 2019.",
+      "answer": "since"
+    },
+    {
+      "id": "eg21",
+      "cycle": 3,
+      "sentence": "You ___ to wear a helmet. It's the rule.",
+      "answer": "have"
+    },
+    {
+      "id": "eg22",
+      "cycle": 3,
+      "sentence": "He asked me ___ I was tired.",
+      "answer": "if"
+    },
+    {
+      "id": "eg23",
+      "cycle": 3,
+      "sentence": "That's the boy ___ father is a pilot.",
+      "answer": "whose"
+    },
+    {
+      "id": "eg24",
+      "cycle": 3,
+      "sentence": "I'm not used ___ getting up so early.",
+      "answer": "to"
+    }
   ],
   "verbs": [
-    { "base": "be",    "past": "was / were", "participle": "been",   "es": "ser, estar", "cycle": 2 },
-    { "base": "go",    "past": "went",  "participle": "gone",   "es": "ir",        "cycle": 2 },
-    { "base": "eat",   "past": "ate",   "participle": "eaten",  "es": "comer",     "cycle": 2 },
-    { "base": "see",   "past": "saw",   "participle": "seen",   "es": "ver",       "cycle": 2 },
-    { "base": "have",  "past": "had",   "participle": "had",    "es": "tener",     "cycle": 2 },
-    { "base": "do",    "past": "did",   "participle": "done",   "es": "hacer",     "cycle": 2 },
-    { "base": "make",  "past": "made",  "participle": "made",   "es": "fabricar",  "cycle": 2 },
-    { "base": "come",  "past": "came",  "participle": "come",   "es": "venir",     "cycle": 2 },
-    { "base": "take",  "past": "took",  "participle": "taken",  "es": "coger",     "cycle": 2 },
-    { "base": "give",  "past": "gave",  "participle": "given",  "es": "dar",       "cycle": 2 },
-    { "base": "write", "past": "wrote", "participle": "written","es": "escribir",  "cycle": 2 },
-    { "base": "read",  "past": "read",  "participle": "read",   "es": "leer",      "cycle": 2 },
-    { "base": "drink", "past": "drank", "participle": "drunk",  "es": "beber",     "cycle": 3 },
-    { "base": "swim",  "past": "swam",  "participle": "swum",   "es": "nadar",     "cycle": 3 },
-    { "base": "buy",   "past": "bought","participle": "bought", "es": "comprar",   "cycle": 3 },
-    { "base": "bring", "past": "brought","participle": "brought","es": "traer",    "cycle": 3 },
-    { "base": "think", "past": "thought","participle": "thought","es": "pensar",   "cycle": 3 },
-    { "base": "catch", "past": "caught","participle": "caught", "es": "atrapar",   "cycle": 3 },
-    { "base": "break", "past": "broke", "participle": "broken", "es": "romper",    "cycle": 3 },
-    { "base": "choose","past": "chose", "participle": "chosen", "es": "elegir",    "cycle": 3 },
-    { "base": "speak", "past": "spoke", "participle": "spoken", "es": "hablar",    "cycle": 3 },
-    { "base": "fly",   "past": "flew",  "participle": "flown",  "es": "volar",     "cycle": 3 },
-    { "base": "grow",  "past": "grew",  "participle": "grown",  "es": "crecer",    "cycle": 3 },
-    { "base": "know",  "past": "knew",  "participle": "known",  "es": "saber",     "cycle": 3 }
+    {
+      "base": "be",
+      "past": "was / were",
+      "participle": "been",
+      "es": "ser, estar",
+      "cycle": 2
+    },
+    {
+      "base": "go",
+      "past": "went",
+      "participle": "gone",
+      "es": "ir",
+      "cycle": 2
+    },
+    {
+      "base": "eat",
+      "past": "ate",
+      "participle": "eaten",
+      "es": "comer",
+      "cycle": 2
+    },
+    {
+      "base": "see",
+      "past": "saw",
+      "participle": "seen",
+      "es": "ver",
+      "cycle": 2
+    },
+    {
+      "base": "have",
+      "past": "had",
+      "participle": "had",
+      "es": "tener",
+      "cycle": 2
+    },
+    {
+      "base": "do",
+      "past": "did",
+      "participle": "done",
+      "es": "hacer",
+      "cycle": 2
+    },
+    {
+      "base": "make",
+      "past": "made",
+      "participle": "made",
+      "es": "fabricar",
+      "cycle": 2
+    },
+    {
+      "base": "come",
+      "past": "came",
+      "participle": "come",
+      "es": "venir",
+      "cycle": 2
+    },
+    {
+      "base": "take",
+      "past": "took",
+      "participle": "taken",
+      "es": "coger",
+      "cycle": 2
+    },
+    {
+      "base": "give",
+      "past": "gave",
+      "participle": "given",
+      "es": "dar",
+      "cycle": 2
+    },
+    {
+      "base": "write",
+      "past": "wrote",
+      "participle": "written",
+      "es": "escribir",
+      "cycle": 2
+    },
+    {
+      "base": "read",
+      "past": "read",
+      "participle": "read",
+      "es": "leer",
+      "cycle": 2
+    },
+    {
+      "base": "drink",
+      "past": "drank",
+      "participle": "drunk",
+      "es": "beber",
+      "cycle": 3
+    },
+    {
+      "base": "swim",
+      "past": "swam",
+      "participle": "swum",
+      "es": "nadar",
+      "cycle": 3
+    },
+    {
+      "base": "buy",
+      "past": "bought",
+      "participle": "bought",
+      "es": "comprar",
+      "cycle": 3
+    },
+    {
+      "base": "bring",
+      "past": "brought",
+      "participle": "brought",
+      "es": "traer",
+      "cycle": 3
+    },
+    {
+      "base": "think",
+      "past": "thought",
+      "participle": "thought",
+      "es": "pensar",
+      "cycle": 3
+    },
+    {
+      "base": "catch",
+      "past": "caught",
+      "participle": "caught",
+      "es": "atrapar",
+      "cycle": 3
+    },
+    {
+      "base": "break",
+      "past": "broke",
+      "participle": "broken",
+      "es": "romper",
+      "cycle": 3
+    },
+    {
+      "base": "choose",
+      "past": "chose",
+      "participle": "chosen",
+      "es": "elegir",
+      "cycle": 3
+    },
+    {
+      "base": "speak",
+      "past": "spoke",
+      "participle": "spoken",
+      "es": "hablar",
+      "cycle": 3
+    },
+    {
+      "base": "fly",
+      "past": "flew",
+      "participle": "flown",
+      "es": "volar",
+      "cycle": 3
+    },
+    {
+      "base": "grow",
+      "past": "grew",
+      "participle": "grown",
+      "es": "crecer",
+      "cycle": 3
+    },
+    {
+      "base": "know",
+      "past": "knew",
+      "participle": "known",
+      "es": "saber",
+      "cycle": 3
+    }
   ],
   "vocab": [
-    { "cycle": 1, "topic": "Animals",   "words": [["dog","perro"],["cat","gato"],["bird","pájaro"],["horse","caballo"],["fish","pez"],["cow","vaca"],["sheep","oveja"],["duck","pato"]] },
-    { "cycle": 1, "topic": "Colours",   "words": [["red","rojo"],["blue","azul"],["green","verde"],["yellow","amarillo"],["black","negro"],["white","blanco"],["brown","marrón"],["pink","rosa"]] },
-    { "cycle": 1, "topic": "The body",  "words": [["head","cabeza"],["hand","mano"],["foot","pie"],["eye","ojo"],["mouth","boca"],["nose","nariz"],["ear","oreja"],["hair","pelo"]] },
-    { "cycle": 2, "topic": "The house", "words": [["kitchen","cocina"],["bedroom","dormitorio"],["bathroom","baño"],["stairs","escaleras"],["window","ventana"],["roof","tejado"],["door","puerta"],["garden","jardín"]] },
-    { "cycle": 2, "topic": "Food",      "words": [["bread","pan"],["cheese","queso"],["chicken","pollo"],["egg","huevo"],["milk","leche"],["rice","arroz"],["apple","manzana"],["butter","mantequilla"]] },
-    { "cycle": 2, "topic": "Weather",   "words": [["rain","lluvia"],["snow","nieve"],["cloud","nube"],["wind","viento"],["storm","tormenta"],["fog","niebla"],["sunny","soleado"],["cold","frío"]] },
-    { "cycle": 3, "topic": "Jobs",      "words": [["nurse","enfermero/a"],["lawyer","abogado/a"],["baker","panadero/a"],["engineer","ingeniero/a"],["farmer","granjero/a"],["teacher","profesor/a"],["driver","conductor/a"],["scientist","científico/a"]] },
-    { "cycle": 3, "topic": "Feelings",  "words": [["proud","orgulloso"],["scared","asustado"],["bored","aburrido"],["worried","preocupado"],["surprised","sorprendido"],["angry","enfadado"],["shy","tímido"],["excited","emocionado"]] },
-    { "cycle": 3, "topic": "Nature",    "words": [["forest","bosque"],["river","río"],["mountain","montaña"],["beach","playa"],["leaf","hoja"],["branch","rama"],["sand","arena"],["cave","cueva"]] }
+    {
+      "cycle": 1,
+      "topic": "Animals",
+      "words": [
+        [
+          "dog",
+          "perro"
+        ],
+        [
+          "cat",
+          "gato"
+        ],
+        [
+          "bird",
+          "pájaro"
+        ],
+        [
+          "horse",
+          "caballo"
+        ],
+        [
+          "fish",
+          "pez"
+        ],
+        [
+          "cow",
+          "vaca"
+        ],
+        [
+          "sheep",
+          "oveja"
+        ],
+        [
+          "duck",
+          "pato"
+        ]
+      ]
+    },
+    {
+      "cycle": 1,
+      "topic": "Colours",
+      "words": [
+        [
+          "red",
+          "rojo"
+        ],
+        [
+          "blue",
+          "azul"
+        ],
+        [
+          "green",
+          "verde"
+        ],
+        [
+          "yellow",
+          "amarillo"
+        ],
+        [
+          "black",
+          "negro"
+        ],
+        [
+          "white",
+          "blanco"
+        ],
+        [
+          "brown",
+          "marrón"
+        ],
+        [
+          "pink",
+          "rosa"
+        ]
+      ]
+    },
+    {
+      "cycle": 1,
+      "topic": "The body",
+      "words": [
+        [
+          "head",
+          "cabeza"
+        ],
+        [
+          "hand",
+          "mano"
+        ],
+        [
+          "foot",
+          "pie"
+        ],
+        [
+          "eye",
+          "ojo"
+        ],
+        [
+          "mouth",
+          "boca"
+        ],
+        [
+          "nose",
+          "nariz"
+        ],
+        [
+          "ear",
+          "oreja"
+        ],
+        [
+          "hair",
+          "pelo"
+        ]
+      ]
+    },
+    {
+      "cycle": 2,
+      "topic": "The house",
+      "words": [
+        [
+          "kitchen",
+          "cocina"
+        ],
+        [
+          "bedroom",
+          "dormitorio"
+        ],
+        [
+          "bathroom",
+          "baño"
+        ],
+        [
+          "stairs",
+          "escaleras"
+        ],
+        [
+          "window",
+          "ventana"
+        ],
+        [
+          "roof",
+          "tejado"
+        ],
+        [
+          "door",
+          "puerta"
+        ],
+        [
+          "garden",
+          "jardín"
+        ]
+      ]
+    },
+    {
+      "cycle": 2,
+      "topic": "Food",
+      "words": [
+        [
+          "bread",
+          "pan"
+        ],
+        [
+          "cheese",
+          "queso"
+        ],
+        [
+          "chicken",
+          "pollo"
+        ],
+        [
+          "egg",
+          "huevo"
+        ],
+        [
+          "milk",
+          "leche"
+        ],
+        [
+          "rice",
+          "arroz"
+        ],
+        [
+          "apple",
+          "manzana"
+        ],
+        [
+          "butter",
+          "mantequilla"
+        ]
+      ]
+    },
+    {
+      "cycle": 2,
+      "topic": "Weather",
+      "words": [
+        [
+          "rain",
+          "lluvia"
+        ],
+        [
+          "snow",
+          "nieve"
+        ],
+        [
+          "cloud",
+          "nube"
+        ],
+        [
+          "wind",
+          "viento"
+        ],
+        [
+          "storm",
+          "tormenta"
+        ],
+        [
+          "fog",
+          "niebla"
+        ],
+        [
+          "sunny",
+          "soleado"
+        ],
+        [
+          "cold",
+          "frío"
+        ]
+      ]
+    },
+    {
+      "cycle": 3,
+      "topic": "Jobs",
+      "words": [
+        [
+          "nurse",
+          "enfermero/a"
+        ],
+        [
+          "lawyer",
+          "abogado/a"
+        ],
+        [
+          "baker",
+          "panadero/a"
+        ],
+        [
+          "engineer",
+          "ingeniero/a"
+        ],
+        [
+          "farmer",
+          "granjero/a"
+        ],
+        [
+          "teacher",
+          "profesor/a"
+        ],
+        [
+          "driver",
+          "conductor/a"
+        ],
+        [
+          "scientist",
+          "científico/a"
+        ]
+      ]
+    },
+    {
+      "cycle": 3,
+      "topic": "Feelings",
+      "words": [
+        [
+          "proud",
+          "orgulloso"
+        ],
+        [
+          "scared",
+          "asustado"
+        ],
+        [
+          "bored",
+          "aburrido"
+        ],
+        [
+          "worried",
+          "preocupado"
+        ],
+        [
+          "surprised",
+          "sorprendido"
+        ],
+        [
+          "angry",
+          "enfadado"
+        ],
+        [
+          "shy",
+          "tímido"
+        ],
+        [
+          "excited",
+          "emocionado"
+        ]
+      ]
+    },
+    {
+      "cycle": 3,
+      "topic": "Nature",
+      "words": [
+        [
+          "forest",
+          "bosque"
+        ],
+        [
+          "river",
+          "río"
+        ],
+        [
+          "mountain",
+          "montaña"
+        ],
+        [
+          "beach",
+          "playa"
+        ],
+        [
+          "leaf",
+          "hoja"
+        ],
+        [
+          "branch",
+          "rama"
+        ],
+        [
+          "sand",
+          "arena"
+        ],
+        [
+          "cave",
+          "cueva"
+        ]
+      ]
+    }
+  ],
+  "order": [
+    {
+      "cycle": 1,
+      "words": [
+        "I",
+        "have",
+        "a",
+        "red",
+        "ball"
+      ]
+    },
+    {
+      "cycle": 1,
+      "words": [
+        "The",
+        "cat",
+        "is",
+        "black"
+      ]
+    },
+    {
+      "cycle": 1,
+      "words": [
+        "She",
+        "likes",
+        "apples"
+      ]
+    },
+    {
+      "cycle": 1,
+      "words": [
+        "We",
+        "go",
+        "to",
+        "school"
+      ]
+    },
+    {
+      "cycle": 1,
+      "words": [
+        "My",
+        "dog",
+        "is",
+        "big"
+      ]
+    },
+    {
+      "cycle": 1,
+      "words": [
+        "He",
+        "can",
+        "swim"
+      ]
+    },
+    {
+      "cycle": 1,
+      "words": [
+        "I",
+        "like",
+        "ice",
+        "cream"
+      ]
+    },
+    {
+      "cycle": 1,
+      "words": [
+        "The",
+        "sun",
+        "is",
+        "hot"
+      ]
+    },
+    {
+      "cycle": 1,
+      "words": [
+        "They",
+        "are",
+        "my",
+        "friends"
+      ]
+    },
+    {
+      "cycle": 1,
+      "words": [
+        "It",
+        "is",
+        "a",
+        "blue",
+        "car"
+      ]
+    },
+    {
+      "cycle": 2,
+      "words": [
+        "She",
+        "plays",
+        "football",
+        "every",
+        "Saturday"
+      ]
+    },
+    {
+      "cycle": 2,
+      "words": [
+        "We",
+        "had",
+        "pizza",
+        "for",
+        "dinner"
+      ]
+    },
+    {
+      "cycle": 2,
+      "words": [
+        "My",
+        "brother",
+        "is",
+        "taller",
+        "than",
+        "me"
+      ]
+    },
+    {
+      "cycle": 2,
+      "words": [
+        "There",
+        "are",
+        "three",
+        "books",
+        "on",
+        "the",
+        "table"
+      ]
+    },
+    {
+      "cycle": 2,
+      "words": [
+        "I",
+        "usually",
+        "get",
+        "up",
+        "at",
+        "seven"
+      ]
+    },
+    {
+      "cycle": 2,
+      "words": [
+        "They",
+        "went",
+        "to",
+        "the",
+        "beach",
+        "yesterday"
+      ]
+    },
+    {
+      "cycle": 2,
+      "words": [
+        "He",
+        "doesn't",
+        "like",
+        "fish"
+      ]
+    },
+    {
+      "cycle": 2,
+      "words": [
+        "The",
+        "museum",
+        "opens",
+        "at",
+        "ten"
+      ]
+    },
+    {
+      "cycle": 2,
+      "words": [
+        "I",
+        "am",
+        "reading",
+        "a",
+        "good",
+        "book"
+      ]
+    },
+    {
+      "cycle": 2,
+      "words": [
+        "Our",
+        "teacher",
+        "is",
+        "very",
+        "kind"
+      ]
+    },
+    {
+      "cycle": 3,
+      "words": [
+        "I",
+        "have",
+        "never",
+        "been",
+        "to",
+        "London"
+      ]
+    },
+    {
+      "cycle": 3,
+      "words": [
+        "If",
+        "it",
+        "rains",
+        "we",
+        "will",
+        "stay",
+        "at",
+        "home"
+      ]
+    },
+    {
+      "cycle": 3,
+      "words": [
+        "This",
+        "bridge",
+        "was",
+        "built",
+        "a",
+        "century",
+        "ago"
+      ]
+    },
+    {
+      "cycle": 3,
+      "words": [
+        "She",
+        "has",
+        "been",
+        "learning",
+        "the",
+        "piano",
+        "for",
+        "years"
+      ]
+    },
+    {
+      "cycle": 3,
+      "words": [
+        "We",
+        "were",
+        "watching",
+        "a",
+        "film",
+        "when",
+        "the",
+        "lights",
+        "went",
+        "out"
+      ]
+    },
+    {
+      "cycle": 3,
+      "words": [
+        "You",
+        "should",
+        "drink",
+        "more",
+        "water",
+        "when",
+        "it",
+        "is",
+        "hot"
+      ]
+    },
+    {
+      "cycle": 3,
+      "words": [
+        "My",
+        "grandparents",
+        "used",
+        "to",
+        "live",
+        "in",
+        "a",
+        "small",
+        "village"
+      ]
+    },
+    {
+      "cycle": 3,
+      "words": [
+        "Nobody",
+        "knew",
+        "why",
+        "the",
+        "old",
+        "clock",
+        "had",
+        "stopped"
+      ]
+    },
+    {
+      "cycle": 3,
+      "words": [
+        "It",
+        "is",
+        "the",
+        "most",
+        "interesting",
+        "book",
+        "I",
+        "have",
+        "read"
+      ]
+    },
+    {
+      "cycle": 3,
+      "words": [
+        "The",
+        "girl",
+        "who",
+        "won",
+        "the",
+        "race",
+        "is",
+        "my",
+        "cousin"
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "er-tom",
+      "cycle": 1,
+      "title": "Tom and his dog",
+      "text": "This is Tom. He is seven. He has a dog. The dog is brown.",
+      "tf": [
+        [
+          "Tom is seven.",
+          true
+        ],
+        [
+          "Tom has a cat.",
+          false
+        ],
+        [
+          "The dog is brown.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-lucy",
+      "cycle": 1,
+      "title": "Lucy likes red",
+      "text": "I am Lucy. I like red. My bag is red. My shoes are red too.",
+      "tf": [
+        [
+          "Lucy likes red.",
+          true
+        ],
+        [
+          "Her bag is blue.",
+          false
+        ],
+        [
+          "Her shoes are red.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-park",
+      "cycle": 1,
+      "title": "At the park",
+      "text": "It is sunny today. We are at the park. My sister has a kite. It is yellow.",
+      "tf": [
+        [
+          "It is raining.",
+          false
+        ],
+        [
+          "They are at the park.",
+          true
+        ],
+        [
+          "The kite is yellow.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-cats",
+      "cycle": 1,
+      "title": "Sam's cats",
+      "text": "Sam has two cats. One is black and one is white. They sleep on his bed.",
+      "tf": [
+        [
+          "Sam has three cats.",
+          false
+        ],
+        [
+          "One cat is white.",
+          true
+        ],
+        [
+          "The cats sleep on the sofa.",
+          false
+        ]
+      ]
+    },
+    {
+      "id": "er-ana",
+      "cycle": 1,
+      "title": "My name is Ana",
+      "text": "My name is Ana. I am eight. I have a brother. His name is Leo.",
+      "tf": [
+        [
+          "Ana is eight.",
+          true
+        ],
+        [
+          "Ana has a sister.",
+          false
+        ],
+        [
+          "Her brother is Leo.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-frog",
+      "cycle": 1,
+      "title": "The frog",
+      "text": "Look at the frog! It is green and small. It can jump very high.",
+      "tf": [
+        [
+          "The frog is green.",
+          true
+        ],
+        [
+          "The frog is big.",
+          false
+        ],
+        [
+          "The frog can jump.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-market",
+      "cycle": 2,
+      "title": "Saturday at the market",
+      "text": "Every Saturday, Mia goes to the market with her grandma. They buy fruit and fresh bread. Mia always carries the bag. After that, they have hot chocolate at a café.",
+      "tf": [
+        [
+          "Mia goes to the market on Sundays.",
+          false
+        ],
+        [
+          "Mia carries the bag.",
+          true
+        ],
+        [
+          "They buy meat and fish.",
+          false
+        ]
+      ]
+    },
+    {
+      "id": "er-bike",
+      "cycle": 2,
+      "title": "Leo's new bike",
+      "text": "Leo has a new bike. It is green with black wheels. Yesterday he rode it to school for the first time. He was a bit nervous, but he didn't fall.",
+      "tf": [
+        [
+          "Leo's bike is green.",
+          true
+        ],
+        [
+          "He rode it to school yesterday.",
+          true
+        ],
+        [
+          "He fell off the bike.",
+          false
+        ]
+      ]
+    },
+    {
+      "id": "er-hamster",
+      "cycle": 2,
+      "title": "Our class pet",
+      "text": "Our class has a pet hamster called Nibbles. Every week, a different student takes him home. This week it is my turn. He sleeps all day and runs on his wheel at night.",
+      "tf": [
+        [
+          "The hamster is called Nibbles.",
+          true
+        ],
+        [
+          "The same student takes him home every week.",
+          false
+        ],
+        [
+          "Nibbles is active at night.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-winter",
+      "cycle": 2,
+      "title": "Anna's favourite season",
+      "text": "Anna's favourite season is winter. She loves the snow and building snowmen with her cousins. She doesn't like summer because it is too hot.",
+      "tf": [
+        [
+          "Anna's favourite season is summer.",
+          false
+        ],
+        [
+          "She builds snowmen with her cousins.",
+          true
+        ],
+        [
+          "She thinks summer is too hot.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-pilot",
+      "cycle": 2,
+      "title": "Dan wants to fly",
+      "text": "Dan wants to be a pilot. He has got lots of model planes in his bedroom. Last month he visited an airport and saw a real cockpit.",
+      "tf": [
+        [
+          "Dan wants to be a doctor.",
+          false
+        ],
+        [
+          "He has got model planes.",
+          true
+        ],
+        [
+          "He visited an airport last month.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-library",
+      "cycle": 2,
+      "title": "The town library",
+      "text": "The library in my town opens at nine and closes at eight. You can borrow three books for two weeks. On Fridays there is story time for young children.",
+      "tf": [
+        [
+          "The library opens at eight.",
+          false
+        ],
+        [
+          "You can borrow three books.",
+          true
+        ],
+        [
+          "Story time is on Fridays.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-camping",
+      "cycle": 3,
+      "title": "A night to remember",
+      "text": "Last summer, Jake's family went camping in the mountains. On the second night, a storm broke their tent, so they had to sleep in the car. Jake says it was the worst night of his life, but also the funniest. Next year, they are going to stay in a hotel.",
+      "tf": [
+        [
+          "The storm happened on the first night.",
+          false
+        ],
+        [
+          "The family slept in the car.",
+          true
+        ],
+        [
+          "Next year they are going camping again.",
+          false
+        ]
+      ]
+    },
+    {
+      "id": "er-bees",
+      "cycle": 3,
+      "title": "The dance of the bees",
+      "text": "Honeybees communicate by dancing. When a bee finds flowers, it returns to the hive and moves in a special pattern. The direction of the dance shows where the flowers are, and its length shows how far away they are.",
+      "tf": [
+        [
+          "Bees communicate by singing.",
+          false
+        ],
+        [
+          "The dance shows the direction of the flowers.",
+          true
+        ],
+        [
+          "The length of the dance shows how many flowers there are.",
+          false
+        ]
+      ]
+    },
+    {
+      "id": "er-violin",
+      "cycle": 3,
+      "title": "Maria and the violin",
+      "text": "Maria has been learning the violin since she was six. At first she hated practising, but now she plays in the school orchestra. Her teacher says she could become a professional musician if she keeps working hard.",
+      "tf": [
+        [
+          "Maria started the violin when she was six.",
+          true
+        ],
+        [
+          "She has always loved practising.",
+          false
+        ],
+        [
+          "Her teacher thinks she could be a professional.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-wall",
+      "cycle": 3,
+      "title": "The Great Wall",
+      "text": "The Great Wall of China is not one single wall. It is a series of walls built over many centuries by different dynasties. Contrary to popular belief, it cannot be seen from space with the naked eye.",
+      "tf": [
+        [
+          "The Great Wall is one single wall.",
+          false
+        ],
+        [
+          "It was built over many centuries.",
+          true
+        ],
+        [
+          "You can easily see it from space.",
+          false
+        ]
+      ]
+    },
+    {
+      "id": "er-swim",
+      "cycle": 3,
+      "title": "Afraid of water",
+      "text": "Tom used to be afraid of water. When he was eight, his parents signed him up for swimming lessons. He cried during the first class, but by the end of the year he had won a medal in a school competition.",
+      "tf": [
+        [
+          "Tom has always loved swimming.",
+          false
+        ],
+        [
+          "He cried in his first lesson.",
+          true
+        ],
+        [
+          "He won a medal that same year.",
+          true
+        ]
+      ]
+    },
+    {
+      "id": "er-owls",
+      "cycle": 3,
+      "title": "Owls",
+      "text": "Owls can turn their heads much further than people can, about three quarters of a full circle. They need to do this because their eyes cannot move inside their heads. Most owls hunt at night and fly almost silently.",
+      "tf": [
+        [
+          "Owls can move their eyes easily.",
+          false
+        ],
+        [
+          "Owls can turn their heads about three quarters of a circle.",
+          true
+        ],
+        [
+          "Most owls hunt during the day.",
+          false
+        ]
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "cycle": 1,
+      "q": "Do you like bananas?"
+    },
+    {
+      "cycle": 1,
+      "q": "Is it a dog?"
+    },
+    {
+      "cycle": 1,
+      "q": "Can you swim?"
+    },
+    {
+      "cycle": 1,
+      "q": "Are you seven?"
+    },
+    {
+      "cycle": 1,
+      "q": "Is your bag blue?"
+    },
+    {
+      "cycle": 1,
+      "q": "Do you have a brother?"
+    },
+    {
+      "cycle": 1,
+      "q": "Can you ride a bike?"
+    },
+    {
+      "cycle": 1,
+      "q": "Is the sun hot?"
+    },
+    {
+      "cycle": 2,
+      "q": "Does your mum work in a school?"
+    },
+    {
+      "cycle": 2,
+      "q": "Can your brother play the guitar?"
+    },
+    {
+      "cycle": 2,
+      "q": "Are they in the garden?"
+    },
+    {
+      "cycle": 2,
+      "q": "Is it raining now?"
+    },
+    {
+      "cycle": 2,
+      "q": "Does Tom like football?"
+    },
+    {
+      "cycle": 2,
+      "q": "Do your friends live near you?"
+    },
+    {
+      "cycle": 2,
+      "q": "Is there a park in your town?"
+    },
+    {
+      "cycle": 2,
+      "q": "Are there any apples in the fridge?"
+    },
+    {
+      "cycle": 3,
+      "q": "Did you watch the match last night?"
+    },
+    {
+      "cycle": 3,
+      "q": "Were they at the party?"
+    },
+    {
+      "cycle": 3,
+      "q": "Has she finished her homework?"
+    },
+    {
+      "cycle": 3,
+      "q": "Was it cold yesterday?"
+    },
+    {
+      "cycle": 3,
+      "q": "Have you ever been to London?"
+    },
+    {
+      "cycle": 3,
+      "q": "Did your parents go to the concert?"
+    },
+    {
+      "cycle": 3,
+      "q": "Will you come to my birthday?"
+    },
+    {
+      "cycle": 3,
+      "q": "Were you tired after the trip?"
+    }
   ]
 }

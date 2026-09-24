@@ -235,9 +235,9 @@ añaden un renglón para escribir, que es donde de verdad sale la conversación.
 Auditoría real (`npm run check`, 120 hojas por curso):
 
 ```
-24 tipos de ejercicio
-bloques/hoja: 5.1 (1º) → 6.3 (5º)     relleno: 99–100 % del A4
-repeticiones día a día: 0.68–1.07/hoja, de las que solo 0.22–0.33 son "no buscadas"
+29 tipos de ejercicio
+bloques/hoja: 5.1 (1º) → 5.8 (6º)     relleno: 99–100 % del A4
+repeticiones día a día: 0.24–0.51/hoja, de las que solo 0.07–0.17 son "no buscadas"
 ningún tipo de ejercicio queda sin salir nunca
 Todo en orden.
 ```
@@ -328,10 +328,21 @@ formar una frase · ✅ Familia de palabras
 ### Inglés
 ✅ Fill in the gaps (con banco de palabras hasta 4º, sin él en 5º–6º) · ✅ Irregular
 verbs con columna oculta variable · ✅ Vocabulary bidireccional · ✅ Writing con
-consigna
-⬜ Reading comprehension en inglés · ⬜ Word order (SVO) · ⬜ Short answers
-(do/does, was/were) · ⬜ Sopa de letras y crucigrama · ⬜ Unir palabra–dibujo ·
-⬜ Números y fechas escritos con letra
+consigna · ✅ **Word search** (sopa de letras con el vocabulario por temas; → y ↓ en
+1er ciclo, diagonal en 2º, también al revés en 3º) · ✅ **Numbers** (cifra ↔ letra, en
+inglés británico: *three hundred and five*) · ✅ **Word order** · ✅ **Reading** con
+*yes/no* en 1er ciclo y *True/False* después · ✅ **Short answers** (*Does she like
+cats?* ✓ → *Yes, she does.*)
+⬜ Crucigrama · ⬜ Unir palabra–dibujo · ⬜ Preposiciones de lugar sobre un dibujo
+
+La lectura en inglés es de respuesta cerrada a propósito: en lengua extranjera, a
+estas edades, lo que se comprueba es que han entendido el texto, no que sepan
+redactar en inglés sobre él. Las instrucciones van en inglés pero al nivel del inglés
+que lee el niño: en 1º-2º *"Put the words in order."*, no *"…start with a capital
+letter and end with a full stop"*.
+
+Con estos cinco, cada tipo de inglés sale en el 15-23 % de las hojas; antes, con
+tres o cuatro tipos, cada uno salía en el 42-50 %.
 
 ### Lógica
 ✅ Series numéricas (aritméticas, geométricas, alternas, cuadrados, Fibonacci, paso
@@ -387,6 +398,13 @@ pasarse no cuesta nada, porque el reparto de espacio sobrante estira los demás 
 igualmente. Medido sobre 34 textos distintos: entre 3 y 17 mm de holgura, nunca
 negativa.
 
+**Los renglones se dimensionan para letra manuscrita, no impresa.** Un niño de 7 años
+escribe con letras de 4-5 mm: "seventeen" impreso ocupa 25 mm, escrito a mano 45. Por
+eso los ejercicios de escribir palabras usan un renglón que llega hasta el borde del
+bloque, y los de frase completa (ordenar palabras, en lengua y en inglés) calculan
+cuántos renglones necesita la frase **escrita a mano** con `handLines()`. Antes, una
+frase de diez palabras de 3er ciclo tenía un solo renglón para escribirse.
+
 **Verso, diálogo y listas de pasos se maquetan línea a línea.** El texto se parte por
 saltos de línea y, cuando hay más de uno, se deja de justificar: justificar un poema
 le parte el ritmo y le abre huecos entre palabras.
@@ -424,11 +442,6 @@ Dos cosas que conviene saber del despliegue:
 - **Node 20.11.1** obliga a fijar Vite 6. Subir a Node 22 LTS y actualizar.
 - **El catálogo ya no se queda corto, pero tampoco sobra.** Con 24 tipos y ~6 bloques
   por hoja se repite medio bloque al día. `npm run check` avisa si eso empeora.
-- **Inglés es ahora la asignatura más floja.** Solo tiene 4 tipos (3 hasta 2º), y como
-  las recetas le piden entre uno y tres huecos al día, cada tipo sale en el 40-50 % de
-  las hojas. Es el mismo problema que tenían las matemáticas antes de los pesos, pero
-  aquí no se arregla con pesos: hacen falta más tipos (reading en inglés, word order,
-  short answers, sopa de letras).
 - **Sin solucionario**, por decisión. Los generadores sí conocen la respuesta
   internamente, así que añadirlo más adelante es barato.
 - **Fuente del sistema.** Para 1º–2º iría mejor una tipografía escolar (Escolar,

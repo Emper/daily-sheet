@@ -446,6 +446,67 @@
   margin-left: 1mm;
 }
 
+/* ---------------------------------------------------------- sopa de letras */
+.sopa { display: flex; gap: 4mm; align-items: flex-start; justify-content: center; height: 100%; }
+/* Sin cuadrícula dibujada: solo las letras y un marco fino. Es lo que menos
+   tinta gasta y lo que mejor deja rodear las palabras con el lápiz. */
+.sopa__grid {
+  display: grid;
+  border: 0.25mm solid var(--rule);
+  border-radius: 1mm;
+  padding: 0.8mm;
+  flex: 0 0 auto;
+}
+.sopa__cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.88em;
+  line-height: 1;
+}
+.sopa__list { list-style: none; margin: 0; padding: 0; font-size: 0.85em; display: flex; flex-direction: column; gap: 1.4mm; }
+.sopa__list li { display: flex; align-items: center; gap: 1.5mm; white-space: nowrap; }
+.sopa__tick { width: 3.2mm; height: 3.2mm; border: 0.25mm solid var(--rule); border-radius: 0.6mm; flex: 0 0 auto; }
+
+/* ------------------------------------------- renglones que llegan al borde */
+/* Para escribir a mano no vale un hueco medido en letras impresas: el
+   renglón ocupa todo lo que queda de fila. */
+.fills { display: flex; flex-direction: column; justify-content: space-evenly; height: 100%; }
+.fill-row { display: flex; align-items: flex-end; gap: 2mm; min-height: 6mm; }
+.fill-row__cue { flex: 0 0 auto; }
+.fill-row__cue--num { font-weight: 700; font-variant-numeric: tabular-nums; min-width: 9mm; }
+.fill-row__line { flex: 1 1 auto; border-bottom: 0.3mm solid var(--rule); height: 1.2em; }
+.fill-row__line--short { flex: 0 0 18mm; }
+
+/* ------------------------------------------------------- reading en inglés */
+.reading--en { margin: 0 0 1.5mm; }
+.tf { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1.6mm; }
+.tf__row { display: flex; align-items: center; gap: 2mm; }
+.tf__text { flex: 1 1 auto; font-size: 0.92em; line-height: 1.25; }
+.tf__opts { display: flex; gap: 1.5mm; flex: 0 0 auto; }
+.tf__opt {
+  min-width: 6.5mm;
+  height: 6mm;
+  padding: 0 1mm;
+  border: 0.3mm solid var(--rule);
+  border-radius: 1mm;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #4b5563;
+}
+
+/* ----------------------------------------------------------- short answers */
+.answers { display: flex; flex-direction: column; justify-content: space-evenly; height: 100%; gap: 1.5mm; }
+.answers__item { display: flex; flex-direction: column; gap: 0.6mm; }
+.answers__q { font-size: 0.95em; }
+.yn { width: 5.5mm; height: 5.5mm; flex: 0 0 auto; align-self: center; }
+.yn__ring { fill: none; stroke: var(--ink); stroke-width: 1.3; }
+.yn__mark { fill: none; stroke: var(--ink); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
 /* ----------------------------------------------------------------- lógica */
 .series { display: flex; flex-direction: column; gap: 2mm; }
 .series__row { display: flex; gap: 1.6mm; align-items: center; font-variant-numeric: tabular-nums; }
